@@ -29,7 +29,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to top, $Body-bg, $Light-Grayish-Blue);
+    background-color: $Body-bg;
     .card {
         margin: 1.5rem 1.5rem .7rem;
         background-color: $White;
@@ -168,6 +168,7 @@ body {
 
     }
     .footer {
+        display: none;
         font-size: .75rem;
         a {
             text-decoration: none;

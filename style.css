@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to top, #e7eef6, #0CABA8);
+  background-color: #e7eef6;
 }
 body .card {
   margin: 1.5rem 1.5rem 0.7rem;
@@ -165,6 +165,7 @@ body .card .share-options .sharing {
   }
 }
 body .footer {
+  display: none;
   font-size: 0.75rem;
 }
 body .footer a {
